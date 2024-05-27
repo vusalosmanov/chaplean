@@ -1,4 +1,4 @@
-import LeftBar from "./components/body/LeftBar";
+import Body from "./components/body/Body";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <LeftBar />
+      <Body/>
       <Footer />
     </div>
   );
